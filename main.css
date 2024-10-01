@@ -49,12 +49,12 @@ body {
 }
 
 .content1,.content2{
-    padding-top:3px;
+    margin-bottom:-4px;
 
 .content_detail{
     align-items: center;
     margin-left: 50px;
-    font-weight: 320;
+    font-weight: 350;
 }
 .work,.mobile{
     display:flex;
