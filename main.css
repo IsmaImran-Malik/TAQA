@@ -35,7 +35,7 @@ body {
 }
 
 .content{
-    margin-left: 8px!important;
+    margin-left: 5px!important;
     margin-top:10px ;
 }
 
@@ -73,6 +73,14 @@ body {
     width:30px;
     display:flex;
     align-items: center;
+}
+
+.icon2{
+    width: 68px;
+}
+
+.icon4,.icon3{
+    width:70px;
 }
 
 .email,.website{
