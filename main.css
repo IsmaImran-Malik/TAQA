@@ -5,18 +5,18 @@
 }
 
 body {
-    font-size: 28px; /* Default font size */
+    font-size: 25px; /* Default font size */
 }
 
 @media (max-width: 768px) { /* For tablets */
     body {
-        font-size: 26px;
+        font-size: 23px;
     }
 }
 
 @media (max-width: 480px) { /* For small mobile devices */
     body {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .icon{
-    width: 65px;
+    width: 60px;
 }
 
 .icon_container{
@@ -77,11 +77,11 @@ body {
 }
 
 .icon2{
-    width: 63px;
+    width: 58px;
 }
 
 .icon1{
-    width: 60px;
+    width: 55px;
 }
 
 .email,.website{
