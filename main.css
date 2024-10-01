@@ -65,12 +65,12 @@ body {
 }
 
 .mobile>:nth-child(2),.work>:nth-child(2){
-    font-size: 14px;
+    font-size: 12px;
     display:inline-block;
 }
 
 .icon{
-    width: 60px;
+    width: 55px;
 }
 
 .icon_container{
@@ -80,11 +80,11 @@ body {
 }
 
 .icon2{
-    width: 58px;
+    width: 53px;
 }
 
 .icon1{
-    width: 55px;
+    width: 50px;
 }
 
 .email,.website{
