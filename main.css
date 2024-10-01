@@ -5,18 +5,18 @@
 }
 
 body {
-    font-size: 30px; /* Default font size */
+    font-size: 28px; /* Default font size */
 }
 
 @media (max-width: 768px) { /* For tablets */
     body {
-        font-size: 28px;
+        font-size: 26px;
     }
 }
 
 @media (max-width: 480px) { /* For small mobile devices */
     body {
-        font-size: 26px;
+        font-size: 24px;
     }
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .content{
-    margin-left: 5px!important;
+    margin-left: 10px!important;
     margin-top:10px ;
 }
 
@@ -51,6 +51,7 @@ body {
 .content_detail{
     align-items: center;
     margin-left: 50px;
+    font-weight: 320;
 }
 .work,.mobile{
     display:flex;
@@ -76,11 +77,11 @@ body {
 }
 
 .icon2{
-    width: 68px;
+    width: 63px;
 }
 
-.icon4,.icon3{
-    width:70px;
+.icon1{
+    width: 60px;
 }
 
 .email,.website{
