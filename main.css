@@ -5,18 +5,18 @@
 }
 
 body {
-    font-size: 22px; /* Default font size */
+    font-size: 30px; /* Default font size */
 }
 
 @media (max-width: 768px) { /* For tablets */
     body {
-        font-size: 20px;
+        font-size: 28px;
     }
 }
 
 @media (max-width: 480px) { /* For small mobile devices */
     body {
-        font-size: 18px;
+        font-size: 26px;
     }
 }
 
@@ -44,27 +44,29 @@ body {
     display:flex;
     flex-direction: row;
     /* align-items: center; */
-    margin: 16px;
+    margin-top: 28px;
+    margin-bottom:40px;
 }
 
 .content_detail{
     align-items: center;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 .work,.mobile{
     display:flex;
     flex-direction: column;
     align-items:flex-start;
+    margin-top:-10px;
     /* justify-content:center; */
 }
 
 .mobile>:nth-child(2),.work>:nth-child(2){
-    font-size: 13px;
+    font-size: 20px;
     display:inline-block;
 }
 
 .icon{
-    width: 45px;
+    width: 65px;
 }
 
 .icon_container{
@@ -80,10 +82,10 @@ body {
 
 .contact>button{
     background-color: #00585A;
-    padding-top:9px;
-    padding-bottom: 9px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-top:18px;
+    padding-bottom: 18px;
+    padding-left:13px;
+    padding-right:13px;
     border-style:none;
     border-radius: 4px;
     display:flex;
@@ -98,5 +100,5 @@ body {
 button>a{
     color:white;
     text-decoration: none;
-    font-weight: 450;
+    font-weight: 500;
 }
