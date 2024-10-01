@@ -5,18 +5,18 @@
 }
 
 body {
-    font-size: 25px; /* Default font size */
+    font-size: 21px; /* Default font size */
 }
 
 @media (max-width: 768px) { /* For tablets */
     body {
-        font-size: 23px;
+        font-size: 19px;
     }
 }
 
 @media (max-width: 480px) { /* For small mobile devices */
     body {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .mobile>:nth-child(2),.work>:nth-child(2){
-    font-size: 20px;
+    font-size: 14px;
     display:inline-block;
 }
 
